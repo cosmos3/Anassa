@@ -1,0 +1,3 @@
+
+Anassa is a PHP-boilerplate/framework for small websites.
+Anassa was built by Göran Hellberg as part of learning web programming.

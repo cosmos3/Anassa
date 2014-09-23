@@ -1,0 +1,74 @@
+/**
+ * Style for source.php
+ */
+.src-breadcrumb, .src-filelist {
+	font-family: monospace;
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 22px 0;
+}
+
+.src-breadcrumb li {
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+
+.src-container {
+	max-height: 600px;
+	border: 1px solid #888;
+	overflow: auto;
+}
+.src-header {
+	background: #EEE;
+	min-width: 2405px;
+	padding: 5px;
+	color: #000;
+	border-bottom: 1px solid #888;
+}
+
+.src-rows {
+	background: #EEE;
+	float: left;
+	margin-right: 5px;
+	padding: 5px;
+	text-align: right;
+	color: #888;
+	border-right: solid 1px #888;
+}
+
+.src-rows a:link, .src-rows a:visited, .src-rows a:hover, .src-rows a:active {
+	text-decoration: none;
+	color: inherit;
+}
+
+.src-code {
+	background: #F8F8F8;
+	min-width: 2400px;
+	width: inherit;
+	margin: 0 5px 0 5px;
+	padding: 5px;
+	overflow-x: no-display;
+	overflow-y: no-display;
+	white-space: nowrap;
+}
+
+/* new 2014-09-10 */
+form.src-path-file {
+	position: relative;
+	float: left;
+}
+ul.src-path-back {
+	position: relative;
+	float: left;
+	list-style-type: none;
+	padding: 0;
+	margin: 5px 0 0 5px;
+}
+ul.src-path-back li {
+	display: inline;
+}
+.src-file {
+	font-weight: bold;
+	color: #444;
+}

@@ -1,0 +1,27 @@
+
+#slides-box {
+	background: #000;
+	max-width: 600px;
+	width: auto;
+	height: 150px;
+	margin: 0 auto;
+	margin-top: 5px;
+	padding: 10px;
+	border-radius: 8px;
+}
+#slides {
+	background: transparent center no-repeat;
+	width: 500px;
+	height: 150px;
+	margin: 0 auto;
+	opacity: 1;
+}
+
+#computerDOS {
+	background: transparent url("../img/me_computerDOS.png") no-repeat;
+	position: relative;
+	float: right;
+	width: 150px;
+	height: 150px;
+	margin: 0 0 10px 10px;
+}

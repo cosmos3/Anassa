@@ -1,0 +1,126 @@
+
+#calendar {
+	background:transparent;
+	width: 320px;
+	height: auto;
+	margin:0 auto;
+	padding: 0;
+	border:1px solid #AAA;
+	box-shadow: 0 6px 6px -3px #444;
+}
+#calendar .head {
+	background:transparent url("../img/calendar_bkg.png") 0px 0px repeat-x;
+	height:21px;
+	padding-top:4px;
+	color:#FFF;
+	font-weight:bold;
+	text-align:center;
+}
+#calendar .prev {
+	position:relative;
+	float:left;
+	width:16px;
+	height:14px;
+	margin:3px 0 0 10px;
+	cursor:pointer;
+}	
+#calendar .prev-year {
+	background:transparent url("../img/calendar_arrow.png") 0px 0px no-repeat;
+}	
+#calendar .prev-month {
+	background:transparent url("../img/calendar_arrow.png") -16px 0px no-repeat;
+}	
+#calendar .prev-year:hover {
+	background:transparent url("../img/calendar_arrow.png") 0px -14px no-repeat;
+}	
+#calendar .prev-month:hover {
+	background:transparent url("../img/calendar_arrow.png") -16px -14px no-repeat;
+}	
+
+#calendar .next {
+	position:relative;
+	float:right;
+	width:16px;
+	height:14px;
+	margin:3px 10px 0 0;
+	cursor:pointer;
+}	
+#calendar .next-year {
+	background:transparent url("../img/calendar_arrow.png") -48px 0px no-repeat;
+}	
+#calendar .next-month {
+	background:transparent url("../img/calendar_arrow.png") -32px 0px no-repeat;
+}	
+#calendar .next-year:hover {
+	background:transparent url("../img/calendar_arrow.png") -48px -14px no-repeat;
+}	
+#calendar .next-month:hover {
+	background:transparent url("../img/calendar_arrow.png") -32px -14px no-repeat;
+}	
+
+#calendar .image {
+	background: #444;
+	width:300px;
+	height:200px;
+	padding:10px;
+}
+
+#calendar .days {
+	background:#444;
+	padding:10px;
+}
+
+table.t-calendar {
+	border-collapse:collapse;
+}
+table.t-calendar thead th {
+	width:25px;
+	height: 25px;
+	color: #CCC;
+	font-weight:normal;
+	text-align:center;
+}
+table.t-calendar tbody tr {
+	height:25px;
+	line-height:25px;
+}
+table.t-calendar td {
+	height:25px;
+}
+table.t-calendar td.week {
+	text-align:left;
+	padding-right:5px;
+	color:#CCC;
+	font-weight:normal;
+}	
+table.t-calendar td.day {
+	color:#FFF;
+	font-weight:bold;
+	text-align:center;
+}
+table.t-calendar thead th.red-day,
+table.t-calendar td.red-day {
+	color:#C00;
+}
+table.t-calendar div {
+	background:transparent url("../img/calendar_bkg.png") 0px -25px repeat-x;
+	width:35px;
+	height:25px;
+	margin:0px;
+}
+table.t-calendar div.day {
+	border:1px solid #444;
+}
+table.t-calendar div.selected {
+	border:1px solid #C44;
+}
+table.t-calendar a {
+	text-decoration:none;
+}
+
+.snap {
+	background:transparent url("../img/calendar_snap.png") repeat-x;
+	width:auto;
+	height:20px;
+	
+}

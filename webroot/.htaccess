@@ -1,0 +1,2 @@
+
+ErrorDocument 404 /webroot/error404.php
