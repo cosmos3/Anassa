@@ -1,7 +1,7 @@
 <?php
 	echo "
 <article>
-	".$kmomsTitle."
+	".$titleKmom."
 	<h4>Utvecklingsmiljö</h4>
 	<p>
 		Efter ett akut datorbyte tidigare i år, sitter jag numera med <b>Windows 7 Professional</b> på en tämligen billig och måttfull \"kontorsmaskin\" (och visst, man kan inte sitta med det gamla XP hur länge som helst, dock påverkas en del gamla favoritprogram av ett nyare Windows). De program jag använder mest i utvecklingssyfte är <b>Microsoft Visual Studio 2010</b> (med tillägg för PHP, CSS-3 och Javascript), samt <b>Notepad++</b> för att göra snabba justeringar och hämta fram äldre användbara dokument. Jag kör <b>Wamp 2.5</b> som lokal server och nyttjar <b>FileZilla</b> som FTP-klient. Till grafiken använder jag, så gott som uteslutande, det gamla <b>Paint Shop Pro 9.1</b> - finns ingen anledning att fläska på med det tunga artilleriet.
@@ -12,7 +12,7 @@
 	</p>
 	<h4>Webbmallen Anax</h4>
 	<p>
-		Min mall har jag döpt till Anassa (jepp, googla på det! Hum, hotell?). Nåväl, <i>hon</i> är tydligen inte så viktig i den gamla grekiska mytologin, men Anassa är helt enkelt den feminina motsvarigheten till Anax, d v s ".txtLinkBlank('http://en.wikipedia.org/wiki/Anax', '<i>drottningen</i>')." (i början slant dock fingrarna och det blev ganska ofta <i>ananas</i> av det hela istället).
+		Min mall har jag döpt till Anassa (jepp, googla på det! Hum, hotell?). Nåväl, <i>hon</i> är tydligen inte så viktig i den gamla grekiska mytologin, men Anassa är helt enkelt den feminina motsvarigheten till Anax, d v s ".CAnassa::txtLinkBlank('http://en.wikipedia.org/wiki/Anax', '<i>drottningen</i>')." (i början slant dock fingrarna och det blev ganska ofta <i>ananas</i> av det hela istället).
 	</p>
 	<h4>Strukturen i webbmallen</h4>
 	<p>
@@ -30,7 +30,8 @@ Jag har även lagt till en funktion för att man ska kunna ladda hem vald fil. D
 	</p>
 	<h4>GitHub</h4>
 	<p>
-		Denna uppgift väntar jag med att göra eftersom den inte har så mycket med själva PHP-programmeringen att göra.
+		Denna uppgift väntar jag med att göra eftersom den inte har så mycket med själva PHP-programmeringen att göra.<br/>
+		<i>EDIT: Det blev inte en sån lång väntan.</i>
 	</p>
 	<h4>Övrigt</h4>
 	<p>
@@ -38,6 +39,9 @@ Jag har även lagt till en funktion för att man ska kunna ladda hem vald fil. D
 	</p>
 	<p>
 		För övrigt undviker jag kommentarer i min kod, såvida det inte handlar om ett mer invecklat avsnitt eller en komplicerad funktion - tycker att koden i sig är tillräckligt självförklarande, tillsammans med vettiga variabel- och funktionsnamn.
+	</p>
+	<p>
+		<span class='font-small-italic'>".CAnassa::txtDate("2014-09-22", 0, "")."</span>
 	</p>
 </article>";
 ?>

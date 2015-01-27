@@ -1,0 +1,87 @@
+
+#t-content {
+	float:left;
+	border:1px solid #468;
+	box-sizing:border-box;
+}
+table.t-content {
+	width:100%;
+	margin: 0;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	border-collapse: collapse;
+}
+table.t-content thead {
+	background: #468;
+	height: 26px;
+	line-height: 26px;
+}
+table.t-content thead tr {
+	display: block;
+	color: #FFF;
+}
+table.t-content thead th {
+	display: table-cell;
+	padding-left: 5px;
+	text-align: left;
+}
+table.t-content thead .content-href a {
+	text-decoration:none;
+	color:#FFF;
+}
+table.t-content thead .content-href a:hover {
+	opacity:0.5;
+}
+
+table.t-content tbody {
+	display: block;
+	width: 100%;
+	max-height: 600px;
+	overflow-y: scroll;
+}
+table.t-content tbody tr {
+	width: auto;
+	height:25px;
+}
+table.t-content td {
+	overflow: hidden;
+	text-align: left;
+	padding-left: 5px;
+}
+table.t-content .type {
+	width: 45px;
+}
+table.t-content .title {
+	width: 240px;
+	font-weight:bold;	
+}
+table.t-content .date {
+	width: 90px;
+	text-align: right;
+}
+table.t-content .owner {
+	width: 280px;
+	padding-left:15px;
+}
+table.t-content .icon {
+	padding:0 2px;
+}
+table.t-content .disabled {
+	opacity:0.25;
+}
+table.t-content td a {
+	color:#048;
+}
+table.t-content td a:hover {
+	text-decoration:none;
+	opacity:0.5;
+}
+
+input.content-manage {
+	width:500px;
+}
+textarea.content-manage {
+	width:500px;
+	height:200px;
+}

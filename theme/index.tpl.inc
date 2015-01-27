@@ -1,6 +1,5 @@
 <?php
-	echo "
-<!DOCTYPE html>
+	echo "<!DOCTYPE html>
 <html lang='".$lang."' class='no-js'>
 <head>
 	<meta charset='utf-8'/>
@@ -22,11 +21,13 @@
 	}
 	echo "
 	<div id='wrapper'>
-		<div id='header'>".$header.showMenuTop($menu_top)."
+		<div id='header'>".
+		$header.CMenu::MainTop($menu_top).CMenu::User()."
 		</div>";
 	if ($header_sub!="") {
 		echo "
-		<div id='header-sub'>".$header_sub."
+		<div id='header-sub'>".
+			$header_sub."
 		</div>";
 	}
 	echo "
@@ -38,10 +39,11 @@
 	}
 	echo "
 		</div>
-		<div id='footer'>".$footer."
+		<div id='footer'>".
+		$footer."
 		</div>
 	</div>
-	<script>
+	<script type='text/javascript'>
 		resizePage();
 	</script>
 </body>

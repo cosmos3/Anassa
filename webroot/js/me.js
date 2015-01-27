@@ -25,7 +25,7 @@ function nextImage(nr) {
 	if (imageNr > imageMax) {
 		imageNr = 1;
 	}
-	div_Slide.style.backgroundImage = "url('img/me_slide_" + imageNr + ".jpg')";
+	div_Slide.style.backgroundImage = "url('img/me/me_slide_" + imageNr + ".jpg')";
 	transStep = 0;
 	transTmr = setTimeout("slideIn()", transSteps);
 }

@@ -5,7 +5,6 @@
 	width: auto;
 	height: 150px;
 	margin: 0 auto;
-	margin-top: 5px;
 	padding: 10px;
 	border-radius: 8px;
 }
@@ -18,7 +17,7 @@
 }
 
 #computerDOS {
-	background: transparent url("../img/me_computerDOS.png") no-repeat;
+	background: transparent url("../img/me/me_computerDOS.png") no-repeat;
 	position: relative;
 	float: right;
 	width: 150px;

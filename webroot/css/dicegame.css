@@ -1,0 +1,158 @@
+
+#dicegame-board {
+	float: left;
+	width: auto;
+	padding: 20px;
+	margin-top:10px;
+	border: 5px solid #468;
+}
+#dicegame-table {
+	float: left;
+	width: auto;
+	margin-top:10px;
+	margin-left: 20px;
+	border: 1px solid #468;
+}
+#dicegame-text {
+	min-height: 90px;
+}
+#dice {
+}
+
+.dice {
+	background: transparent url("../img/dicegame/dice_faces.png") no-repeat;
+	display: inline-block;
+	width: 90px;
+	height: 100px;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.dice.face-1 {
+	background-position: 0px 0px;
+}
+.dice.face-2 {
+	background-position: -90px 0px;
+}
+.dice.face-3 {
+	background-position: -180px 0px;
+}
+.dice.face-4 {
+	background-position: -270px 0px;
+}
+.dice.face-5 {
+	background-position: -360px 0px;
+}
+.dice.face-6 {
+	background-position: -450px 0px;
+}
+.danger-dice {
+	background: transparent url("../img/dicegame/dice_faces.png") 0px -100px no-repeat;
+	display: inline-block;
+	width: 45px;
+	height: 50px;
+	margin: 0 0px;
+}
+.danger-dice.face-1 {
+	background-position: 0px -100px;
+}
+.danger-dice.face-2 {
+	background-position: -45px -100px;
+}
+.danger-dice.face-3 {
+	background-position: -90px -100px;
+}
+.danger-dice.face-4 {
+	background-position: -135px -100px;
+}
+.danger-dice.face-5 {
+	background-position: -180px -100px;
+}
+.danger-dice.face-6 {
+	background-position: -225px -100px;
+}
+.danger-dice.face-1:hover, .danger-dice.face-1.selected {
+	background-position: -270px -100px;
+}
+.danger-dice.face-2:hover, .danger-dice.face-2.selected {
+	background-position: -315px -100px;
+}
+.danger-dice.face-3:hover, .danger-dice.face-3.selected {
+	background-position: -360px -100px;
+}
+.danger-dice.face-4:hover, .danger-dice.face-4.selected {
+	background-position: -405px -100px;
+}
+.danger-dice.face-5:hover, .danger-dice.face-5.selected {
+	background-position: -450px -100px;
+}
+.danger-dice.face-6:hover, .danger-dice.face-6.selected {
+	background-position: -495px -100px;
+}
+
+table.dicegame {
+	width: auto;
+	margin: 0;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	border-collapse: collapse;
+}
+table.dicegame thead {
+	background: #468;
+	height: 26px;
+	line-height: 26px;
+}
+table.dicegame thead tr {
+	display: block;
+	height: 26px;
+	color: #FFF;
+}
+table.dicegame thead th {
+	display: table-cell;
+	padding-left: 5px;
+}
+table.dicegame tbody {
+	display: block;
+	width: 100%;
+	max-height: 445px;
+	overflow-y: scroll;
+}
+table.dicegame tbody tr {
+	height: 26px;
+	width: auto;
+}
+table.dicegame td {
+	white-space: nowrap;
+	overflow: hidden;
+	text-align: left;
+	padding-left: 5px;
+}
+table.dicegame .nr {
+	width: 20px;
+	text-align: right;
+	padding-right: 10px;
+}
+table.dicegame .score {
+	width: 40px;
+	text-align: right;
+}
+table.dicegame .roll {
+	width: 40px;
+	text-align: right;
+	padding-right: 10px;
+}
+table.dicegame .name {
+	width: 150px;
+	text-align: left;
+}
+table.dicegame .date {
+	width: 100px;
+	text-align: right;
+	padding-right: 5px;
+}
+
+span.dicegame-gee {
+	font-weight: bold;
+	font-style: italic;
+	color: #840;
+}

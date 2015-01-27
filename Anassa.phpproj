@@ -1,5 +1,7 @@
 "General"
 {
+"CodePage" = "65001"
+"ForceCodePageInAllFiles" = "true"
 "ProjectType" = "local"
 "AutoLoadTemplate" = "%s.php;class.%s.php;"
 "IncludeDirs" = ""
@@ -26,6 +28,10 @@
     {
     "ProjRelPath" = "T"
     }
+    "index_BTH.php"
+    {
+    "ProjRelPath" = "T"
+    }
     "LICENSE.txt"
     {
     "ProjRelPath" = "T"
@@ -42,6 +48,14 @@
     {
     "ProjRelPath" = "T"
     }
+    "src\\CAnassa"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CAnassa\\CAnassa.php"
+    {
+    "ProjRelPath" = "T"
+    }
     "src\\CCalendar"
     {
     "ProjRelPath" = "T"
@@ -50,11 +64,131 @@
     {
     "ProjRelPath" = "T"
     }
-    "src\\CDice"
+    "src\\CContent"
     {
     "ProjRelPath" = "T"
     }
-    "src\\CDice\\CDice.php"
+    "src\\CContent\\CContent.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CContentBlog"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CContentBlog\\CContentBlog.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CContentManage"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CContentManage\\CContentManage.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CContentPage"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CContentPage\\CContentPage.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CDatabase"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CDatabase\\CDatabase.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CDiceGame"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CDiceGame\\CDiceGame.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CDiceGameRecordFile"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CDiceGameRecordFile\\CDiceGameRecordFile.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CGallery"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CGallery\\CGallery.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CImage"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CImage\\CImage.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CMenu"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CMenu\\CMenu.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CMovie"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CMovie\\CMovie.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CMovieManage"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CMovieManage\\CMovieManage.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CMovieManageHTML"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CMovieManageHTML\\CMovieManageHTML.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CMoviePeople"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CMoviePeople\\CMoviePeople.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CMoviePeopleAll"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CMoviePeopleAll\\CMoviePeopleAll.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CMovieTable"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CMovieTable\\CMovieTable.php"
     {
     "ProjRelPath" = "T"
     }
@@ -74,11 +208,79 @@
     {
     "ProjRelPath" = "T"
     }
-    "theme"
+    "src\\CTextFilter"
     {
     "ProjRelPath" = "T"
     }
-    "theme\\functions.inc"
+    "src\\CTextFilter\\CTextFilter.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CUser"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CUser\\CUser.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CUserAccount"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\CUserAccount\\CUserAccount.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\php-markdown"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\php-markdown\\composer.json"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\php-markdown\\License.md"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\php-markdown\\Michelf"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\php-markdown\\Michelf\\Markdown.inc.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\php-markdown\\Michelf\\Markdown.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\php-markdown\\Michelf\\MarkdownExtra.inc.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\php-markdown\\Michelf\\MarkdownExtra.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\php-markdown\\Michelf\\MarkdownInterface.inc.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\php-markdown\\Michelf\\MarkdownInterface.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\php-markdown\\Readme.md"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\php-markdown\\Readme.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "theme"
     {
     "ProjRelPath" = "T"
     }
@@ -122,11 +324,51 @@
     {
     "ProjRelPath" = "T"
     }
+    "webroot\\_config (BTH).inc"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\_config.inc"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\_db (BTH).inc"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\_db.inc"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\blogs.php"
+    {
+    "ProjRelPath" = "T"
+    }
     "webroot\\calendar.php"
     {
     "ProjRelPath" = "T"
     }
+    "webroot\\clear_session.php"
+    {
+    "ProjRelPath" = "T"
+    }
     "webroot\\config.inc"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\content.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\content_blog.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\content_manage.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\content_page.php"
     {
     "ProjRelPath" = "T"
     }
@@ -142,7 +384,23 @@
     {
     "ProjRelPath" = "T"
     }
+    "webroot\\css\\content.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\css\\dicegame.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\css\\gallery.css"
+    {
+    "ProjRelPath" = "T"
+    }
     "webroot\\css\\me.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\css\\movies.css"
     {
     "ProjRelPath" = "T"
     }
@@ -150,11 +408,19 @@
     {
     "ProjRelPath" = "T"
     }
+    "webroot\\css\\user.css"
+    {
+    "ProjRelPath" = "T"
+    }
     "webroot\\ctrlTest.php"
     {
     "ProjRelPath" = "T"
     }
-    "webroot\\dice.php"
+    "webroot\\diceGame.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\diceGame_redirect.php"
     {
     "ProjRelPath" = "T"
     }
@@ -163,6 +429,14 @@
     "ProjRelPath" = "T"
     }
     "webroot\\favicon.ico"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\gallery.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\gallery_header.inc"
     {
     "ProjRelPath" = "T"
     }
@@ -178,63 +452,71 @@
     {
     "ProjRelPath" = "T"
     }
-    "webroot\\img\\calendar_arrow.png"
+    "webroot\\img.php"
     {
     "ProjRelPath" = "T"
     }
-    "webroot\\img\\calendar_bkg.png"
+    "webroot\\img\\calendar"
     {
     "ProjRelPath" = "T"
     }
-    "webroot\\img\\calendar_img_1.jpg"
+    "webroot\\img\\calendar\\calendar_arrow.png"
     {
     "ProjRelPath" = "T"
     }
-    "webroot\\img\\calendar_img_10.jpg"
+    "webroot\\img\\calendar\\calendar_bkg.png"
     {
     "ProjRelPath" = "T"
     }
-    "webroot\\img\\calendar_img_11.jpg"
+    "webroot\\img\\calendar\\calendar_img_1.jpg"
     {
     "ProjRelPath" = "T"
     }
-    "webroot\\img\\calendar_img_12.jpg"
+    "webroot\\img\\calendar\\calendar_img_10.jpg"
     {
     "ProjRelPath" = "T"
     }
-    "webroot\\img\\calendar_img_2.jpg"
+    "webroot\\img\\calendar\\calendar_img_11.jpg"
     {
     "ProjRelPath" = "T"
     }
-    "webroot\\img\\calendar_img_3.jpg"
+    "webroot\\img\\calendar\\calendar_img_12.jpg"
     {
     "ProjRelPath" = "T"
     }
-    "webroot\\img\\calendar_img_4.jpg"
+    "webroot\\img\\calendar\\calendar_img_2.jpg"
     {
     "ProjRelPath" = "T"
     }
-    "webroot\\img\\calendar_img_5.jpg"
+    "webroot\\img\\calendar\\calendar_img_3.jpg"
     {
     "ProjRelPath" = "T"
     }
-    "webroot\\img\\calendar_img_6.jpg"
+    "webroot\\img\\calendar\\calendar_img_4.jpg"
     {
     "ProjRelPath" = "T"
     }
-    "webroot\\img\\calendar_img_7.jpg"
+    "webroot\\img\\calendar\\calendar_img_5.jpg"
     {
     "ProjRelPath" = "T"
     }
-    "webroot\\img\\calendar_img_8.jpg"
+    "webroot\\img\\calendar\\calendar_img_6.jpg"
     {
     "ProjRelPath" = "T"
     }
-    "webroot\\img\\calendar_img_9.jpg"
+    "webroot\\img\\calendar\\calendar_img_7.jpg"
     {
     "ProjRelPath" = "T"
     }
-    "webroot\\img\\calendar_snap.png"
+    "webroot\\img\\calendar\\calendar_img_8.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\calendar\\calendar_img_9.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\calendar\\calendar_snap.png"
     {
     "ProjRelPath" = "T"
     }
@@ -242,23 +524,27 @@
     {
     "ProjRelPath" = "T"
     }
-    "webroot\\img\\me_computerDOS.png"
+    "webroot\\img\\me"
     {
     "ProjRelPath" = "T"
     }
-    "webroot\\img\\me_gh.png"
+    "webroot\\img\\me\\me_computerDOS.png"
     {
     "ProjRelPath" = "T"
     }
-    "webroot\\img\\me_slide_1.jpg"
+    "webroot\\img\\me\\me_gh.png"
     {
     "ProjRelPath" = "T"
     }
-    "webroot\\img\\me_slide_2.jpg"
+    "webroot\\img\\me\\me_slide_1.jpg"
     {
     "ProjRelPath" = "T"
     }
-    "webroot\\img\\me_slide_3.jpg"
+    "webroot\\img\\me\\me_slide_2.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\me\\me_slide_3.jpg"
     {
     "ProjRelPath" = "T"
     }
@@ -286,6 +572,10 @@
     {
     "ProjRelPath" = "T"
     }
+    "webroot\\js\\dicegame.js"
+    {
+    "ProjRelPath" = "T"
+    }
     "webroot\\js\\me.js"
     {
     "ProjRelPath" = "T"
@@ -306,7 +596,75 @@
     {
     "ProjRelPath" = "T"
     }
+    "webroot\\kmoms\\kmom02.inc"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\kmoms\\kmom03.inc"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\kmoms\\kmom04.inc"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\kmoms\\kmom05.inc"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\kmoms\\kmom06.inc"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\kmoms\\kmom07.inc"
+    {
+    "ProjRelPath" = "T"
+    }
     "webroot\\me.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\message.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\movies.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\movies_header.inc"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\movies_people_ac.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\movies_post.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\movies_title_ac.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\other"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\other.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\other\\ctrlTest.inc"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\other\\error404.inc"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\other\\vardump.inc"
     {
     "ProjRelPath" = "T"
     }
@@ -327,6 +685,18 @@
     "ProjRelPath" = "T"
     }
     "webroot\\swf\\ComputerDOS.swf"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\user_account.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\user_login.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\user_logout.php"
     {
     "ProjRelPath" = "T"
     }

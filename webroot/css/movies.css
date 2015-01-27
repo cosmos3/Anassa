@@ -1,0 +1,143 @@
+
+.t-movies-bar {
+	height:25px;
+	font-size:12px;
+	font-weight:bold;
+	color:#024;
+}
+.t-movies-bar-left {
+	float:left;
+	width:180px;
+}
+.t-movies-bar-middle {
+	width:auto;
+	text-align:center;
+}
+.t-movies-bar-right {
+	float:right;
+	width:180px;
+	text-align:right;
+}
+.t-movies-bar a {
+	color:#048;
+}
+.t-movies-bar a:hover {
+	text-decoration:none;
+	opacity:0.5;
+}
+.t-movies-bar.selectable {
+	padding:2px 4px;
+}
+.t-movies-bar.selected {
+	background: #468;
+	color: #FFF;
+	border-radius:5px;
+}
+
+#t-movies {
+	float:left;
+	border:1px solid #468;
+	box-sizing:border-box;
+}
+table.t-movies {
+	width:100%;
+	margin: 0;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	border-collapse: collapse;
+}
+table.t-movies thead {
+	background: #468;
+	height: 26px;
+	line-height: 26px;
+}
+table.t-movies thead tr {
+	display: block;
+	color: #FFF;
+}
+table.t-movies thead th {
+	display: table-cell;
+	padding-left: 5px;
+	text-align: left;
+}
+table.t-movies thead .movies-href a {
+	text-decoration:none;
+	color:#FFF;
+}
+table.t-movies thead .movies-href a:hover {
+	opacity:0.5;
+}
+
+table.t-movies tbody {
+	display: block;
+	width: 100%;
+	max-height: 520px;
+	overflow-y: scroll;
+}
+table.t-movies tbody tr {
+	width: auto;
+}
+table.t-movies td {
+	overflow: hidden;
+	text-align: left;
+	padding-left: 5px;
+}
+table.t-movies .title {
+	width: 120px;
+	font-weight:bold;	
+}
+table.t-movies .image {
+	width: 70px;
+	text-align: center;
+}
+div.t-movies-image {
+	min-height:80px;
+}
+table.t-movies .year {
+	width: 45px;
+}
+table.t-movies .people-content {
+	overflow-y:auto;
+	width: 400px;
+	text-align: justify;
+}
+table.t-movies .genre {
+	width: 80px;
+	padding-left:15px;
+}
+table.t-movies .price {
+	width: 80px;
+	text-align:right;
+	padding-right:15px;
+}
+table.t-movies .icon {
+	padding:0 2px;
+}
+table.t-movies .disabled {
+	opacity:0.25;
+}
+table.t-movies td a {
+	color:#048;
+}
+table.t-movies td a:hover {
+	text-decoration:none;
+	opacity:0.5;
+}
+
+#movie-manage-image {
+	float:left;
+	width:300px;
+	height:450px;
+	padding:5px;
+	margin-top:10px;
+	margin-right:10px;
+	border:1px dotted #888;
+	box-sizing:content-box;
+}
+#movie-manage {
+	float:left;
+	max-width:520px;
+	margin-top:10px;
+	box-sizing:border-box;
+}

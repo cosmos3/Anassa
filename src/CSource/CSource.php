@@ -118,7 +118,7 @@
 		 */
 		public function View() {
 			//return $this->GetBreadcrumbFromPath() 
-//				. $this->message . $this->ReadCurrentDir(0) . $this->GetFileContent();
+			//				. $this->message . $this->ReadCurrentDir(0) . $this->GetFileContent();
 			return $this->GetFileContent();
 		}
 
@@ -171,27 +171,30 @@
 		}
 		
 		// new 2014-09-10 combobox/<select> =============================
-		public function getPathFile() {
+		private function divColor($color) {
+			return " style='color:".$color."'";
+		}
+		public function getPathFile($title) {
 			if (!$this->dir) {
 				return;
 			}
 			$cmbPathFile="
-				<form class='src-path-file' name='path' action='".$_SERVER['PHP_SELF']."' method='GET'>
-					Välj katalog eller fil: 
+				<form class='src-path-file' name='path' action='".$_SERVER['PHP_SELF']."' method='GET'>".
+				$title." - välj katalog eller fil: 
 					<select name='path' onchange='document.forms[0].submit();'>";
 			$pathBack="
 				<div style='float:left;margin-left:20px;margin-top:5px;'>Katalog-väg:</div>
 				<ul class='src-path-back'>
 					<li><a href='?'>".basename($this->baseDir)."</a>/</li>";
 			$cmbPathFile.="
-						<option value=''>".basename($this->baseDir)."</option>";
+						<option value=''".$this->divColor("#F0F").">".basename($this->baseDir)."</option>";
 			$path=null; 
 			foreach ($this->breadcrumb as $val) {
 				$path.="$val/";
 				$pathBack.="
 					<li><a href='?path=".$path."'>".$val."</a>/</li>";
 				$cmbPathFile.="
-						<option value='".$path."'".($path==($this->path)."/" && $this->file=="" ? " selected" :"").">".$path."</option>";
+						<option value='".$path."'".($path==($this->path)."/" && $this->file=="" ? " selected" :"").$this->divColor("#F00").">".$path."</option>";
 			}
 			$pathBack.="
 				</ul>";
@@ -200,9 +203,15 @@
 					continue;
 				}
 				$file=basename($val).(is_dir($val) ? "/" : null);
+				$color=substr($file, -1)=="/" ? $this->divColor("#F00") : "";
+				$imgArray=array('png', 'jpg', 'jpeg', 'gif', 'ico');
+				$ext=pathinfo(basename($file), PATHINFO_EXTENSION);
+				if (in_array($ext, $imgArray)) {
+					$color=$this->divColor("#00F");
+				}
 				$path=(empty($this->path) ? null : $this->path."/").$file;
 				$cmbPathFile.="
-						<option value='".$path."'".($file==$this->file ? " selected" :"").">".$file."</option>";
+						<option value='".$path."'".($file==$this->file ? " selected" :"").$color.">".$file."</option>";
 			}
 			$cmbPathFile.="
 					</select>
@@ -342,9 +351,7 @@
 EOD;
 			} 
 
-			$download=txtDownloadFile("?download=".$this->realPath, "Ladda ner fil")." (".round(filesize($this->realPath)*0.001, 1)." kB)";
-			
-			return "<p>Fil: <span class='src-file'>".$this->file."</span> - ".$download."</p>".$this->content;
+			return "<p>Fil: <span class='src-file'>".$this->file."</span> - Ladda ner fil: <a href='?download=".$this->realPath."'><span class='symbol save'></span></a> (".round(filesize($this->realPath)/1024, 1)." kB)</p>".$this->content;
 
 		}
 
